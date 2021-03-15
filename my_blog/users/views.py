@@ -230,7 +230,7 @@ class LoginView(View):
         if next_page:
             response=redirect(next_page)
         else:
-            redirect(reverse('home:index'))
+            response = redirect(reverse('home:index'))
 
         if remember != 'on': # 没有记住用户信息
             # 浏览器关闭之后
