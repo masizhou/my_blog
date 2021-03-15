@@ -9,52 +9,49 @@
 
 ## 1.1 注册页面
 
-![](../asset/1615813806(1).jpg)
+
 ![image](https://user-images.githubusercontent.com/56242720/111177978-b116d280-85e5-11eb-8cd5-3539c0ddf4e6.png)
 
 
 
 ## 1.2 登录页面
+![image](https://user-images.githubusercontent.com/56242720/111178263-ecb19c80-85e5-11eb-891e-657a45a88a26.png)
 
-![](\asset\1615813987(1).jpg)
 
 ## 1.3 忘记密码页面
+![image](https://user-images.githubusercontent.com/56242720/111178363-05ba4d80-85e6-11eb-825f-6fbb7bfc440e.png)
 
-![](\asset\1615814073(1).jpg)
 
 ## 1.4 论坛主页
+![image](https://user-images.githubusercontent.com/56242720/111178467-2387b280-85e6-11eb-955d-b3c651c50d41.png)
 
-![](\asset\1615814218(1).jpg)
+
 
 ## 1.5 浏览文章及评论页面
+![image](https://user-images.githubusercontent.com/56242720/111178548-3ef2bd80-85e6-11eb-9959-bed57bbd7a6d.png)
 
-![](\asset\1615814320(1).jpg)
+![image](https://user-images.githubusercontent.com/56242720/111178624-50d46080-85e6-11eb-9924-513af865df8f.png)
 
-
-
-![](\asset\1615814372(1).jpg)
 
 ## 1.6 个人信息修改页面
-
-![](\asset\1615814452(1).jpg)
+![image](https://user-images.githubusercontent.com/56242720/111178708-6184d680-85e6-11eb-8ef6-d91e95347c77.png)
 
 
 
 ## 1.7 写文章页面
+![image](https://user-images.githubusercontent.com/56242720/111178806-75c8d380-85e6-11eb-9958-c323cd4cff91.png)
 
-![](\asset\1615814585(1).jpg)
 
 ## 1.8 后台管理页面
 
 ### 1.8.1 登录
+![image](https://user-images.githubusercontent.com/56242720/111178879-8416ef80-85e6-11eb-8f0e-da2d7e05f41f.png)
 
-![](\asset\1615814734(1).jpg)
 
 ### 1.8.2 增删文章类别
+![image](https://user-images.githubusercontent.com/56242720/111178910-8aa56700-85e6-11eb-8bac-5dd1c63579fd.png)
+![image](https://user-images.githubusercontent.com/56242720/111178949-91cc7500-85e6-11eb-8a13-77a06729acfc.png)
 
-![](\asset\1615814684(1).jpg)
-
-![](\asset\1615814869(1).jpg)
 
 
 
