@@ -10,6 +10,7 @@
 ## 1.1 注册页面
 
 ![](../asset/1615813806(1).jpg)
+![image](https://user-images.githubusercontent.com/56242720/111177978-b116d280-85e5-11eb-8cd5-3539c0ddf4e6.png)
 
 
 
