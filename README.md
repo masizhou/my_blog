@@ -78,10 +78,27 @@ pip install django-redis
 
 # 三、数据库设置
 
-## 3.1 向数据库导入表
+## 3.1 建表
+进入setting.py,将下面的内容改为自己的数据库配置：
 
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', # 数据库引擎
+        'HOST': '127.0.0.1', # 数据库主机
+        'PORT': 3306, # 数据库端口
+        'USER': 'msz', # 数据库用户名
+        'PASSWORD': '123456', # 数据库用户密码
+        'NAME': 'msz_blog' # 数据库名字
+    },
+}
+```
 
-
+然后执行进入manage.py所在的目录，执行：
+```python
+python manage.py makemigrations
+python manage.py migrate
+```
 
 
 ## 3.2 后台登录密码
