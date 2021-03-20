@@ -386,13 +386,13 @@ class UserCenterView(LoginRequiredMixin, View):
         return response
 
 
-from home.models import ActicleCategory, Article
+from home.models import ArticleCategory, Article
 class WriteBlogView(LoginRequiredMixin, View):
 
     def get(self, request):
 
         # 查询所有分类模型
-        categories = ActicleCategory.objects.all()
+        categories = ArticleCategory.objects.all()
 
         context = {
             'categories':categories
@@ -426,8 +426,8 @@ class WriteBlogView(LoginRequiredMixin, View):
 
         # 2.2判断分类id
         try:
-            category = ActicleCategory.objects.get(id=category_id)
-        except ActicleCategory.DoesNotExist:
+            category = ArticleCategory.objects.get(id=category_id)
+        except ArticleCategory.DoesNotExist:
             return HttpResponseBadRequest('没有此分类')
 
         # 3.数据入库

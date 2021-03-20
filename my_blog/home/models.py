@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
-class ActicleCategory(models.Model):
+class ArticleCategory(models.Model):
     """
     文章分类
     """
@@ -48,7 +48,7 @@ class Article(models.Model):
     title = models.CharField(max_length=20, blank=True)
 
     # 栏目分类
-    category = models.ForeignKey(ActicleCategory,
+    category = models.ForeignKey(ArticleCategory,
                                  null=True,
                                  blank=True,
                                  on_delete=models.CASCADE,
@@ -99,7 +99,7 @@ class Comment(models.Model):
     # 评论的用户
     user = models.ForeignKey('users.User', on_delete=models.SET_NULL, null=True)
     # 评论的时间
-    craeted = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.article.title

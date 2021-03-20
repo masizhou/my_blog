@@ -1,7 +1,7 @@
 from django.views import View
 from django.shortcuts import redirect, render
 from django.urls import reverse
-from home.models import ActicleCategory, Article
+from home.models import ArticleCategory, Article
 from django.http.response import HttpResponseNotFound
 class IndexView(View):
 
@@ -20,14 +20,17 @@ class IndexView(View):
         """
 
         # 1.获取所有分类信息
-        categories = ActicleCategory.objects.all()
+        categories = ArticleCategory.objects.all()
         # 2.接收用户点击的分类id
         cat_id = request.GET.get('cat_id', 1)
         # 3.根据分类id进行分类的查询
         try:
-            category = ActicleCategory.objects.get(id=cat_id)
-        except ActicleCategory.DoesNotExist:
-            return HttpResponseNotFound('没有此分类')
+            category = ArticleCategory.objects.get(id=cat_id)
+            # category = ActicleCategory.objects.get()
+
+            print(category)
+        except ArticleCategory.DoesNotExist:
+            return HttpResponseNotFound('请在后台添加分类')
 
         # 4.获取分页参数
         page_num = request.GET.get('page_num', 1)
@@ -85,7 +88,7 @@ class DetailView(View):
             article.save()
 
         # 3.查询分类数据
-        categories = ActicleCategory.objects.all()
+        categories = ArticleCategory.objects.all()
         # 查询浏览量前10的文章数据
         hot_articles = Article.objects.order_by('-total_views')[:9]
 
@@ -93,7 +96,7 @@ class DetailView(View):
         page_size = request.GET.get('page_size', 10)
         page_num = request.GET.get('page_num', 1)
         # 5.根据文章信息查询评论数据
-        comments = Comment.objects.filter(article=article).order_by('-craeted')
+        comments = Comment.objects.filter(article=article).order_by('-created')
         # 获取评论总数
         total_count = comments.count()
         # 6.创建分页器
