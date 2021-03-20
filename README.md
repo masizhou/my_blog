@@ -93,8 +93,9 @@ DATABASES = {
     },
 }
 ```
+然后建立数据库
 
-然后执行进入manage.py所在的目录，执行：
+最后执行进入manage.py所在的目录，执行：
 ```python
 python manage.py makemigrations
 python manage.py migrate
