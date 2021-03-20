@@ -40,13 +40,8 @@
 
 ## 1.8 后台管理页面
 
-### 1.8.1 登录
-![image](https://user-images.githubusercontent.com/56242720/111178879-8416ef80-85e6-11eb-8f0e-da2d7e05f41f.png)
+![image](https://user-images.githubusercontent.com/56242720/111865620-1a5e6300-89a3-11eb-9e25-efa870c93bb4.png)
 
-
-### 1.8.2 增删文章类别
-![image](https://user-images.githubusercontent.com/56242720/111178910-8aa56700-85e6-11eb-8bac-5dd1c63579fd.png)
-![image](https://user-images.githubusercontent.com/56242720/111178949-91cc7500-85e6-11eb-8a13-77a06729acfc.png)
 
 
 
